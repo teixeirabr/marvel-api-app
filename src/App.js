@@ -11,6 +11,11 @@ const LIMIT = 99;
 // const baseUrl = "http://gateway.marvel.com/v1/public/characters"
 // const query = `?limit=${req.query.limit}&nameStartsWith=${req.query.name}`;
 //hash - a md5 digest of the ts parameter, your private key and your public key (e.g. md5(ts+privateKey+publicKey)
+//dotenv boiler plate
+// REACT_APP_BASE_URL=http://gateway.marvel.com/v1/public/characters
+// REACT_APP_API_KEY=
+// REACT_APP_API_HASH=
+// REACT_APP_API_TS=""
 
 class App extends Component {
   state = {
